@@ -14,6 +14,13 @@ public class A001_TiposPrimitivos {
         char caractere = 'M';
 
         System.out.println("A idade é " + idade);
+        System.out.println(salarioDouble);
+        System.out.println(salarioFloat);
+        System.out.println(salarioLong);
+        System.out.println(idadeByte);
+        System.out.println(salarioShort);
+        System.out.println(verdadeiro);
+        System.out.println(caractere);
     }
 
 }
