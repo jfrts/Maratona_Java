@@ -13,6 +13,12 @@ public class Seminario {
         this.local = local;
     }
 
+    public Seminario(String titulo, ArrayList<Estudante> estudantes, Local local) {
+        this.titulo = titulo;
+        this.estudantes = estudantes;
+        this.local = local;
+    }
+
     public void adicionarEstudante(Estudante estudante) {
         this.estudantes.add(estudante);
     }
