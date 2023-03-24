@@ -1,7 +1,7 @@
 package M02_POO.a14_heranca;
 
 public class Pessoa {
-    private String nome;
+    protected String nome;
     private String cpf;
 
     public Pessoa(String nome, String cpf) {

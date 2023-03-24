@@ -8,6 +8,13 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    public void relatorioDePagamento() {
+        // System.out.println("Eu " + this.getNome() + " recebi o salário...");
+        
+        // Podemos usar o modificador de acesso protected e usar this.nome diretamente.
+        System.out.println("Eu " + this.nome + " recebi o salário...");
+    }
+
     @Override
     public void imprime() {
         super.imprime();
