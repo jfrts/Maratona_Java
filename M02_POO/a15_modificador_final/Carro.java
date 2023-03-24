@@ -9,6 +9,10 @@ public class Carro {
         this.nome = nome;
     }
 
+    public final void imprime() {
+        System.out.println(this);
+    }
+
     public String getNome() {
         return nome;
     }
@@ -19,5 +23,10 @@ public class Carro {
 
     public static double getVelocidadeLimite() {
         return VELOCIDADE_LIMITE;
+    }
+
+    @Override
+    public String toString() {
+        return "Carro [COMPRADOR=" + COMPRADOR + ", nome=" + nome + "]";
     }
 }
