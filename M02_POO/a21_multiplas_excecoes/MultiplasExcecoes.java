@@ -28,6 +28,15 @@ public class MultiplasExcecoes {
         } catch (Exception e) {
             System.out.println("Exception");
         }
+
+        // Multi catch em linha: Funciona para exceções que não estejam na mesma linha de herança.
+        try {
+            talvezLanceException();
+        } catch (SQLException | FileNotFoundException e) {
+            System.out.println("SQLException ou FileNotFoundException");
+        } catch (Exception e) {
+            System.out.println("Exception");
+        }
     }
 
     private static void talvezLanceException() throws SQLException, FileNotFoundException {
