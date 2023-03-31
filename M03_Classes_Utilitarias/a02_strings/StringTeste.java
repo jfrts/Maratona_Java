@@ -2,7 +2,7 @@ package M03_Classes_Utilitarias.a02_strings;
 
 
 /**
- * String são imutáveis
+ * Strings são imutáveis
  * 
  */
 
