@@ -17,7 +17,6 @@ class ObterProximoDiaUtil implements TemporalAdjuster {
         switch (dayOfWeek) {
             case FRIDAY:
             case SATURDAY:
-            case MONDAY:
                 return temporal.with(TemporalAdjusters.next(DayOfWeek.MONDAY));
             default:
                 return temporal.plus(1, ChronoUnit.DAYS);
