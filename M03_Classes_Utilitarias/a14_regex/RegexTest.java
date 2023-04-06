@@ -46,5 +46,18 @@ public class RegexTest {
          * \W = Tudo que não estiver incluso no \w
          * 
          */
+
+        /**
+         * Quantificadores
+         * 
+         * ? = Zero ou uma
+         * * = Zero ou mais
+         * + = Uma ou mais
+         * {n,m} = De n até m
+         * () = Agrupar
+         * | = Ou -> [o(v|c)o -> ovo e oco]
+         * $
+         * .
+         */
     }
 }
