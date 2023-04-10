@@ -1,6 +1,5 @@
 package M03_Classes_Utilitarias.a16_io;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
