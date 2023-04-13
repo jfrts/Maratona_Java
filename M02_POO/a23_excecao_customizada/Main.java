@@ -31,5 +31,7 @@ public class Main {
         }
 
         System.out.println("Usuário logado...");
+
+        teclado.close();
     }
 }
