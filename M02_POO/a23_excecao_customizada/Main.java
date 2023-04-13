@@ -19,6 +19,8 @@ public class Main {
 
         System.out.print("Digite a senha: ");
         String senhaDigitada = teclado.nextLine();
+        
+        teclado.close();
 
         String loginDB = "julio";
         String senhaDB = "123456";
@@ -26,12 +28,12 @@ public class Main {
         System.out.println("Login digitado: " + loginDigitado);
         System.out.println("Senha digitada: " + senhaDigitada);
 
+
         if (!loginDB.equalsIgnoreCase(loginDigitado) || !senhaDB.equals(senhaDigitada)) {
             throw new LoginInvalidoException("Os dados digitados estao incorretos...");
         }
 
         System.out.println("Usuário logado...");
 
-        teclado.close();
     }
 }
